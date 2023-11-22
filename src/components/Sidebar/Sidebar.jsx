@@ -14,8 +14,8 @@ export default function Sidebar() {
             />
           </div>
           <div className="text-center">
-            <h3 className="font-semibold">Name</h3>
-            <h3 className="font-semibold">Email</h3>
+            <h3 className="font-bold text-sm">User Name</h3>
+            <h3 className="font-normal text-sm">username@mail.com</h3>
           </div>
         </div>
         <div>

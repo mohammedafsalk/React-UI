@@ -2,6 +2,7 @@ import React from "react";
 import Aside from "../Aside/Aside";
 import Sidebar from "../Sidebar/Sidebar";
 import Pricing from "../Pricings/Pricing";
+import PricingLast from "../Pricinglast/PricingLast";
 
 export default function Section() {
   return (
@@ -21,7 +22,7 @@ export default function Section() {
                 <Pricing/>
             </div>
             <div>
-              
+              <PricingLast/>
             </div>
           </div>
         </div>

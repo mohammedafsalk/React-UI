@@ -1,12 +1,15 @@
 import React from "react";
 import "./navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
+import logo from '../../assets/logo.jpg'
 export default function Navbar() {
   return (
     <>
       <nav className="max-w mx-auto flex justify-between h-28 sticky">
         <div className="bg-white flex items-center  relative w-40 ">
-          <h1 className="text-4xl font-bold px-10 z-10">P</h1>
+          <h1 className="text-4xl font-bold px-10 z-10">
+            <img src={logo} alt="" />
+          </h1>
           <div className="skew-bg shadow-"></div>
         </div>
         <div className="flex items-center gap-4 mr-28 ">
