@@ -4,7 +4,7 @@ import { IoIosPower, IoMdCube } from "react-icons/io";
 export default function Sidebar() {
   return (
     <>
-      <div className="bg-white shadow-2xl  flex flex-col min-h-screen w-[192px] gap-6 justify-evenly ">
+      <div className="bg-white shadow-2xl  flex flex-col min-h-fit w-[192px] gap-6 justify-evenly ">
         <div className="flex flex-col p-5 gap-2 items-center shadow-xl ">
           <div className="">
             <img
