@@ -20,6 +20,9 @@ export default function Section() {
             <div>
                 <Pricing/>
             </div>
+            <div>
+              
+            </div>
           </div>
         </div>
         <Aside />
